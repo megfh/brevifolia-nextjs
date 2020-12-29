@@ -31,3 +31,5 @@ fields:
   type: tag_list
   default: []
   label: tags
+pages:
+- posts/test-new-blog-post.md
