@@ -18,18 +18,14 @@ fields:
   config:
     required: false
   label: title
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: content
 - name: tags
   type: tag_list
   default: []
   label: tags
+- name: author
+  type: text
+  config:
+    required: false
+  label: author
 pages:
 - posts/test-new-blog-post.md
